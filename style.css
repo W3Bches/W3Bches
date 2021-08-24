@@ -1,0 +1,120 @@
+body{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+#header{
+	background: #3F3F3F;
+	color: white;
+	width: 100%;
+	height: 140px;
+
+	display: flex;
+}
+
+#messengers{
+	background: #4169E1;
+	width: 13%;
+	padding: 4px;
+}
+#welcome{
+	width: 880px;
+	padding-left: 6px;
+	padding-top: 6px;
+	font-size: 48px;
+	font-family: Geneva, Arial;
+}
+#msg_banner{
+	
+	width: 60%;
+	text-align: bottom;
+	display: flex;
+}
+
+#discord{
+	width: 260px;
+	height: 40px;
+}
+
+
+#usico{
+	width:140px;
+	height: 140px;
+}
+
+@media (max-width:1200px){
+	#header{
+		max-width: 100%;
+	}
+}
+@media (max-width:992px){
+	#header{
+		max-width: 100%;
+	}
+	#welcome{
+		font-size: 42px;
+		max-width: 750;
+	}
+}
+@media (max-width:767px){
+	#header{
+		max-width: none;
+		height: 120px;
+		text-align: left;
+	}
+	#welcome{
+		font-size: 30px;
+		max-width: none;
+		
+	}
+	#discord{
+		width: 100%;
+	}
+	#usico{
+		width: 120px;
+		height: 120px;
+	}
+
+@media (max-width:680px){
+	#header{
+		max-width: none;
+		width: 130%;
+		height: 120px;
+		text-align: left;
+	}
+	#welcome{
+		font-size: 28px;
+		max-width: none;
+		
+	}
+	#discord{
+		width: 170px;
+	}
+	#usico{
+		width: 115px;
+		height: 115px;
+	}
+
+@media (max-width:350px){
+	#header{
+		max-width: none;
+
+	}
+	#welcome{
+		font-size: 22px;
+		max-width: none;
+		
+	}
+	#discord{
+		width: 100%;
+		font-size: 11px;
+	}
+	#usico{
+		width: 95px;
+		height: 95px;
+	}
+	#header{
+		height: 100px;
+	}
+}
