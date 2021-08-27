@@ -62,7 +62,7 @@ body{
 @media (max-width:767px){
 	#header{
 		max-width: none;
-		height: 160px;
+		height: 125px;
 		text-align: left;
 	}
 	#welcome{
@@ -71,18 +71,18 @@ body{
 		
 	}
 	#discord{
-		width: 100px
+		width: 120px
 	}
 	#usico{
-		width: 120px;
+		width: 110px;
 		height: 120px;
 	}
 
 @media (max-width:680px){
 	#header{
 		max-width: none;
-		width: 180%;
-		height: 135px;
+		width: 185%;
+		height: 130px;
 		text-align: left;
 
 	}
@@ -103,7 +103,7 @@ body{
 	#header{
 		max-width: none;
 		height: 180px;
-
+		
 	}
 	#welcome{
 		font-size: 28px;
