@@ -49,12 +49,19 @@ body{
 		height: 140px;
 		display: flex;
 	}
+	#discord{
+		width: 200px;
+		height: 50px;
+		font-size: 16px;
+	}
 }
 @media (max-width:992px){
 	#header{
 		max-width: none;
 		height: 125px;
 		text-align: left;
+		width: 100%;
+
 	}
 	#welcome{
 		font-size: 38px;
@@ -63,6 +70,7 @@ body{
 	}
 	#discord{
 		width: 120px
+
 	}
 	#usico{
 		width: 110px;
@@ -73,6 +81,7 @@ body{
 		max-width: none;
 		height: 125px;
 		text-align: left;
+		
 	}
 	#welcome{
 		font-size: 36px;
@@ -80,8 +89,10 @@ body{
 		
 	}
 	#discord{
-		width: 130px
-		font-size: 16px;
+		width: 180px
+		height: 600px;
+		font-size: 22px;
+		
 	}
 	#usico{
 		width: 110px;
@@ -97,13 +108,15 @@ body{
 		
 	}
 	#welcome{
-		font-size: 28px;
+		font-size: 34px;
 		max-width: none;
 		
 	}
 	#discord{
-		width: 220px;
-		font-size: 16px;
+		width: 280px;
+		height: 60px;
+		font-size: 20px;
+		
 	}
 	#usico{
 		width: 130px;
