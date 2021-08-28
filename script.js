@@ -7,3 +7,6 @@ function telegram(){
 function youtube(){
 	location.href='https://youtube.com/channel/UCpQiUs7EVj91sIku9kvlw4w'
 }
+function page(){
+	location.href='viruses/page1.html'
+}

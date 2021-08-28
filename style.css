@@ -43,6 +43,36 @@ body{
 	height: 140px;
 }
 
+#content_banner{
+	background: #F5F5F5;
+	display: flex;
+	justify-content: flex-end;
+	height: 220px;
+}
+#cnt_banner{
+	background: gray;
+	width: 200px;
+	height: 180px;
+	margin-top: 8px;
+}
+
+#viruses{
+	width: 100%;
+	height: 80px;
+}
+
+#bottom_banner{
+	background: #3F3F3F;
+	height: 160px;
+	text-align: center;
+}
+
+
+
+
+
+
+
 @media (max-width:1200px){
 	#header{
 		width: 1206px;
@@ -87,7 +117,7 @@ body{
 @media (max-width:767px){
 	#header{
 		max-width: none;
-		height: 125px;
+		height: 160px;
 		text-align: left;
 		
 	}
@@ -97,53 +127,55 @@ body{
 		
 	}
 	#discord{
-		width: 180px
-		height: 600px;
+		width: 280px
+		height: 180px;
 		font-size: 22px;
 		
 	}
 	#usico{
-		width: 110px;
-		height: 120px;
+		width: 160px;
+		height: 160px;
+	}
+	#cntbanner{
+		background: red;
+		width: 100px;
+		height: 100px;
 	}
 
 @media (max-width:480px){
 	#header{
 		display: flex; 
 		width: 976px;
-		height: 130px;
+		height: 200px;
 		text-align: left;
-		
+		background: green;
 	}
 	#welcome{
-		font-size: 34px;
+		font-size: 64px;
 		max-width: none;
 		
 	}
 	#discord{
-		width: 280px;
-		height: 60px;
-		font-size: 20px;
+		width: 700px;
+		height: 90px;
+		font-size: 28px;
 		
 	}
 	#usico{
-		width: 130px;
-		height: 130px;
+		width: 200px;
+		height: 200px;
 	}
 
 @media (max-width:300px){
 	#header{
-		max-width: none;
-		height: 180px;
-		
+		height: 800px;
+		background: red;
 	}
 	#welcome{
-		font-size: 28px;
-		max-width: none;
-		
+		font-size: 42px;
 	}
 	#discord{
-		width: 160px;
+		width: 220px;
 		font-size: 14px;
 	}
 	#usico{
