@@ -4,3 +4,15 @@ body{
 	border: 0;
 	width: 100%;
 }
+#header{
+	background: gray;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+}
+h1{
+	padding: 4px;
+	margin: 4px;
+	color: white;
+}
