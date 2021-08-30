@@ -5,7 +5,7 @@ body{
 	width: 100%;
 }
 #header{
-	background: gray;
+	background: #3F3F3F;
 	overflow: hidden;
 	display: flex;
 	flex-direction: row;
@@ -15,4 +15,16 @@ h1{
 	padding: 4px;
 	margin: 4px;
 	color: white;
+}
+h2{
+	padding: 4px;
+	margin: 4px;
+}
+#keylogger{
+	background: gray;
+	color: white;
+}
+#warn{
+	background: #FCF101;
+	color: black;
 }
