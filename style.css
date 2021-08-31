@@ -84,37 +84,49 @@ body{
 	}
 	#discord{
 		max-width: 180px;
+
 	}
 }
+
 @media (max-width:767px){
 	#header{
 		max-width: none;
 	}
 	#discord{
-		max-width: 100px;
+		max-width: 110px;
 		font-size: 14px;
 	}
 	#welcome{
 		font-size: 45px;
 	}
 }
-@media (max-width:439px){
+@media (max-width:476px){
 	#header{
 		max-width: none;
+		max-height: 480px;
 	}
 	#welcome{
-		font-size: 34px;
+		font-size: 32px;
 	}
 	#discord{
-		max-width: 68px;
+		max-width: 200px;
 		font-size: 12px;
+		padding: 0px;
 	}
 	#content_banner{
 		max-width: 439;
-		justify-content: center;
+		
+	}
+	#msg_banner{
+		display: table-caption;
+		padding: 0px;
+	}
+	#usico{
+		width: 205px;
+		height: 205px;
 	}
 }
-@media (max-width:390px){
+@media (max-width:420px){
 	#header{
 		max-width: none;
 		display: block;
@@ -124,7 +136,7 @@ body{
 		font-size: 0px;
 	}
 	#discord{
-		max-width: 30.2%;
+		max-width: 28%;
 		font-size: 11px;
 
 	}
@@ -139,6 +151,8 @@ body{
 	#msg_banner{
 		text-align: center;
 		justify-content: center;
+		background: red;
+		display: none;
 		padding-bottom: 4px;
 	}
 
